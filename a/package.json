@@ -1,0 +1,23 @@
+{
+    "type": "module",
+    "name": "a",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-polyfill-webpack-plugin": "^1.1.4",
+        "page-flip": "^2.0.7",
+        "pdfjs": "^2.4.7",
+        "pdfjs-dist": "^2.14.305",
+        "webpack": "^5.73.0"
+    },
+    "devDependencies": {
+        "webpack-cli": "^4.10.0"
+    }
+}
